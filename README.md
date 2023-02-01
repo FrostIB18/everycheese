@@ -72,8 +72,6 @@ python manage.py sqlcreate | psql
 
 On Windows:
 
-Since [there is no official support for PostgreSQL 12 on Windows 10](https://www.postgresql.org/download/windows/) (officially PostgreSQL 12 is only supported on Windows Server), we choose to use SQLite3 on Windows
-
 6 - <a name="step-6">Run the `migrations` to finish configuring the database to able to run the project</a>
 
 
